@@ -20,9 +20,10 @@ Cada nó possui 3 filhos, exceto os penúltimos nós, os quais possuem como úni
 ![PlanejamentoGeral - Frame 10](https://github.com/user-attachments/assets/eac1c178-6ad9-454e-abc8-a6b8551fcd2d)
 
 # 3 Exemplos de Uso
-Nessa seção, há a exibição de alguns testes do algoritmo. Houve a seleção da cor inicial e da cor final, além do número de cores de transição (sendo sempre menor ou igual a 5). Os valores de R, G e B são sempre superiores a 5.
+Nessa seção, há a exibição de alguns testes do algoritmo. Houve a seleção da cor inicial e da cor final, além do número de cores de transição (sendo sempre menor ou igual a 5). Os valores de R, G e B são sempre superiores a 5. No terminal, exibe-se os nós escolhidos e seus atributos (RGB e luminosidade/lightness), além de exibir o custo total da solução.
 
 ![PlanejamentoGeral - Frame 11](https://github.com/user-attachments/assets/63aa3c8c-8b80-4a64-ac85-912cbcb6734f)
 
-
+# 4 Observações
+Nesse repositório, há a inclusão das classes utilizadas, em C#, e não todo o projeto csproj.
 
