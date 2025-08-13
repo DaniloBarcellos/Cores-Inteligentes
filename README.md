@@ -10,11 +10,16 @@ O problema escolhido e desenvolvido consiste em formar uma paleta de cores, cons
 
 ![PlanejamentoGeral - Frame 9](https://github.com/user-attachments/assets/bee62a46-103c-411d-bad6-7703dcf33187)
 
-Utilizamos um grafo para representar os possíveis caminhos da cor inicial até a final. Dessa forma, para a escolha do caminho mínimo, foi implementado o algoritmo Greedy Best First, algoritmo guloso para selecionar o menor caminho possível (apesar de não estar incluído na implementação, pode-se facilmente atualizá-la para incluir o caminho máximo). O menor caminho possível aponta para cores mais semelhantes entre si.
+Utilizamos um grafo para representar os possíveis caminhos da cor inicial até a final. Dessa forma, para a escolha do caminho mínimo, foi implementado o algoritmo Greedy Best First, algoritmo guloso para selecionar o menor caminho possível (apesar de não estar incluído na implementação, pode-se facilmente atualizá-la para incluir o caminho máximo). O menor caminho possível aponta para cores mais semelhantes entre si, considerando certa variação conforme a geração das cores.
 
 # 2 O Algoritmo para Gerar Cores
 Nesse sentido, escolhemos pela geração de um grafo, a fim de listar caminhos possíveis para a formação da paleta de cores. Cada nó representa uma cor RGB (Red, Green e Blue), e o valor das arestas é a distância euclidiana entre uma cor e outra.
 
 Cada nó possui 3 filhos, exceto os penúltimos nós, os quais possuem como único filho a cor destino, como se observa na Figura 2. Quanto à geração das cores intermediárias, considerando um nó pai, há a preservação de R no primeiro filho, G no segundo filho e B no terceiro. Faz-se a média de R, G e B do nó pai, e essa média é incluída nos nós filhos. Como cada cor possuem 3 atributos, RGB, o terceiro valor a ser incluído é calculado respeitando a transição da luminosidade.
 
-# 3 
+![PlanejamentoGeral - Frame 10](https://github.com/user-attachments/assets/eac1c178-6ad9-454e-abc8-a6b8551fcd2d)
+
+# 3 Exemplos de Uso
+
+
+
