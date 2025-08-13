@@ -25,5 +25,5 @@ Nessa seção, há a exibição de alguns testes do algoritmo. Houve a seleção
 ![PlanejamentoGeral - Frame 11](https://github.com/user-attachments/assets/63aa3c8c-8b80-4a64-ac85-912cbcb6734f)
 
 # 4 Observações
-Nesse repositório, há a inclusão das classes utilizadas, em C#, e não todo o projeto csproj.
+Nesse repositório, há a inclusão das classes utilizadas, em C#, e não todo o projeto csproj. Notamos que o algoritmo Greedy Best First resulta em paletas interessantes, embora o A* consiga selecionar melhores caminhos.
 
